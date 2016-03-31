@@ -55,7 +55,7 @@ deleted when this array is destroyed, either implicitly or explicitly
 by calling `del`, it will simply be detached from the current process.
 To delete a shared array use the `SharedArray.delete()` function.
 
-### `SharedArray.attach(name)`
+### `SharedArray.attach(name, readonly=False)`
 
 This function attaches an array previously created in shared memory
 and identified by `name`.  The shared memory block holding the content
